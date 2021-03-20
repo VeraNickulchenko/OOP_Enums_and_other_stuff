@@ -6,6 +6,8 @@ public class Middle_school extends School implements Education {
     int DPA_rating;
     int Olympia_take_parts;
     int percent_passed_DPA_successfully;
+    final int aga = 10;
+    final double xaga = 10;
 
 
 
@@ -50,13 +52,14 @@ public class Middle_school extends School implements Education {
         double children_with_high = 0.4 * amount_of_children;
         return children_with_high;
     }
-
-
     public static void hours(){
         int learningweeks_middleschool = 34;
         int thelessonsminutes = 45;
         int minutes_for_middle_school = thelessonsminutes *learningweeks_middleschool;
         System.out.println("The amount of working minutes for Middle School is " +  "  " + minutes_for_middle_school);
     }
+
+
+
 
 }
